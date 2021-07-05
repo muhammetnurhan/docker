@@ -1,5 +1,6 @@
 docker service scale portainer_portainer=0 / çalışan servisi durdurur
 docker service scale portainer_portainer=1 / servisi 1 replika ile çalıştırır
+docker run --rm -v portainer_portainer_data:/data portainer/helper-reset-password / kullanıcı şifresi sıfırlama
 docker images / Docker hostuna yüklü olan image leri gösterir.
 docker ps / Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
 docker run hello-world / İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır. Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local e indirir ve ardından çalıştırır.
