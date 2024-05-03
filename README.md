@@ -11,6 +11,7 @@ Bu betik, Docker'ı kurmak için Ubuntu tabanlı bir sunucuda gereken adımları
 3. Betiği çalıştırın:
 
     ```bash
+    chmod +x setup.sh
     ./setup.sh
     ```
 
