@@ -3,7 +3,6 @@
 # Setup for Docker
 set -euo pipefail
 
-
 sudo apt install net-tools iputils-ping dnsutils -y
 sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release -y
 
@@ -23,4 +22,4 @@ VERSION_STRING=5:25.0.5-1~ubuntu.22.04~jammy
 sudo apt-get install docker-ce=$VERSION_STRING docker-ce-cli=$VERSION_STRING containerd.io docker-buildx-plugin docker-compose-plugin
 sudo systemctl is-enabled docker
 docker info
-# sudo systemctl status docker
+sudo systemctl status docker
