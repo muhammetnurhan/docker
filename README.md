@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Docker Kurulumu için setup.sh
 
 Bu betik, Docker'ı kurmak için Ubuntu tabanlı bir sunucuda gereken adımları otomatize etmek için yazılmıştır.
